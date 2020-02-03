@@ -1,19 +1,15 @@
 .App {
-  background: whitesmoke;
+  background:#c450ff;
 }
 
 .App-logo {
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.ant-layout-header {
+  background: white;
+  color: #006cab;
 
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,8 +31,55 @@
   box-shadow: 0 0 4px #e2e2e2;
 }
 
-.ant-list-items li{
-  background: white;
-  margin: 15px;
-  border-radius: 4px;
+.box-shadow-md {
+  
+  box-shadow: 0 0 14px #0000007a;
+}
+
+.app-layout-page {
+  max-height: calc(100vh - 64px); 
+  overflow: auto;
+}
+
+.ant-progress-text {
+  color: #006cab !important;
+  font-size: 1.4em;
+}
+
+.ant-card-body {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 22px;
+  zoom: 1;
+}
+
+.ant-card-head {
+  padding: 0 24px;
+  font-size: 14px;
+  zoom: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ant-list {
+  font-size: 17px;
+  color: black;
+}
+
+.search-container {
+  height: calc(54vh - 64px);
+  width: 100%;
+  background-color:#c450ff;
+  background-image: url(https://ayria.club/images/bg/03.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box{
+  height: 320px;
+  width: 800px;
 }

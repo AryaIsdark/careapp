@@ -5,18 +5,22 @@ import postDetails from './postDetails/reducer';
 import { PostDetailsState } from './postDetails/types';
 import comments from './comments/reducer';
 import { CommentsState } from './comments/types';
+import me from './me/reducer';
+import { MeState } from './me/types';
 
 
 export interface AppState {
   posts: PostsState;
   postDetails: PostDetailsState;
   comments: CommentsState;
+  me : MeState
 }
 
 const rootReducer = combineReducers<any>({
   posts,
   postDetails,
-  comments
+  comments, 
+  me
 });
 
 export default rootReducer;
