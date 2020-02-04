@@ -1,5 +1,5 @@
 .App {
-  background:#c450ff;
+  background: whitesmoke;
 }
 
 .App-logo {
@@ -33,7 +33,7 @@
 
 .box-shadow-md {
   
-  box-shadow: 0 0 14px #0000007a;
+  box-shadow: 0 0 14px silver;
 }
 
 .app-layout-page {
@@ -60,7 +60,16 @@
   zoom: 1;
   letter-spacing: 4px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
+}
+
+.ant-card-extra {
+  float: right;
+  margin-left: auto;
+  padding: 16px 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .ant-list {
@@ -71,7 +80,7 @@
 .search-container {
   height: calc(54vh - 64px);
   width: 100%;
-  background-color:#c450ff;
+  background-color: whitesmoke;
   background-image: url(https://ayria.club/images/bg/03.png);
   background-size: cover;
   display: flex;

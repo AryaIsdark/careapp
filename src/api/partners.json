@@ -1,0 +1,701 @@
+[{
+  "id": 1,
+  "name": "Vinder",
+  "logo": "http://dummyimage.com/114x201.png/5fa2dd/ffffff",
+  "rating": 1.3,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 2,
+  "name": "Gigazoom",
+  "logo": "http://dummyimage.com/185x114.bmp/ff4444/ffffff",
+  "rating": 4.6,
+  "categories": "cinema",
+  "isSponsored": false
+}, {
+  "id": 3,
+  "name": "Zoomlounge",
+  "logo": "http://dummyimage.com/143x165.jpg/5fa2dd/ffffff",
+  "rating": 2.1,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 4,
+  "name": "Yakijo",
+  "logo": "http://dummyimage.com/191x137.jpg/5fa2dd/ffffff",
+  "rating": 1.8,
+  "categories": "",
+  "isSponsored": false
+}, {
+  "id": 5,
+  "name": "Riffpedia",
+  "logo": "http://dummyimage.com/243x107.jpg/5fa2dd/ffffff",
+  "rating": 4.1,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 6,
+  "name": "Thoughtbridge",
+  "logo": "http://dummyimage.com/173x244.png/dddddd/000000",
+  "rating": 2.6,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 7,
+  "name": "Talane",
+  "logo": "http://dummyimage.com/219x161.png/5fa2dd/ffffff",
+  "rating": 1.5,
+  "categories": "massage",
+  "isSponsored": true
+}, {
+  "id": 8,
+  "name": "Centidel",
+  "logo": "http://dummyimage.com/195x135.jpg/cc0000/ffffff",
+  "rating": 3.2,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 9,
+  "name": "Feedfire",
+  "logo": "http://dummyimage.com/155x207.png/5fa2dd/ffffff",
+  "rating": 2.0,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 10,
+  "name": "Fivespan",
+  "logo": "http://dummyimage.com/148x169.bmp/ff4444/ffffff",
+  "rating": 1.7,
+  "categories": "massage",
+  "isSponsored": false
+}, {
+  "id": 11,
+  "name": "Livetube",
+  "logo": "http://dummyimage.com/237x118.bmp/ff4444/ffffff",
+  "rating": 1.7,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 12,
+  "name": "Skiptube",
+  "logo": "http://dummyimage.com/179x197.jpg/ff4444/ffffff",
+  "rating": 4.9,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 13,
+  "name": "Camido",
+  "logo": "http://dummyimage.com/122x243.png/cc0000/ffffff",
+  "rating": 2.7,
+  "categories": "massage",
+  "isSponsored": false
+}, {
+  "id": 14,
+  "name": "Feedfish",
+  "logo": "http://dummyimage.com/233x170.png/cc0000/ffffff",
+  "rating": 3.6,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 15,
+  "name": "Tagpad",
+  "logo": "http://dummyimage.com/207x165.png/ff4444/ffffff",
+  "rating": 2.5,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 16,
+  "name": "Tagpad",
+  "logo": "http://dummyimage.com/129x193.bmp/cc0000/ffffff",
+  "rating": 5.0,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 17,
+  "name": "Linklinks",
+  "logo": "http://dummyimage.com/101x217.png/5fa2dd/ffffff",
+  "rating": 1.8,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 18,
+  "name": "Youspan",
+  "logo": "http://dummyimage.com/138x166.jpg/5fa2dd/ffffff",
+  "rating": 2.6,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 19,
+  "name": "Rhynyx",
+  "logo": "http://dummyimage.com/228x184.png/dddddd/000000",
+  "rating": 4.3,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 20,
+  "name": "Voomm",
+  "logo": "http://dummyimage.com/156x187.bmp/dddddd/000000",
+  "rating": 2.4,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 21,
+  "name": "Babblestorm",
+  "logo": "http://dummyimage.com/226x139.jpg/5fa2dd/ffffff",
+  "rating": 4.3,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 22,
+  "name": "Vipe",
+  "logo": "http://dummyimage.com/187x187.bmp/5fa2dd/ffffff",
+  "rating": 1.7,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 23,
+  "name": "Kwinu",
+  "logo": "http://dummyimage.com/242x174.png/ff4444/ffffff",
+  "rating": 1.8,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 24,
+  "name": "Skalith",
+  "logo": "http://dummyimage.com/110x159.jpg/ff4444/ffffff",
+  "rating": 3.2,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 25,
+  "name": "Oyope",
+  "logo": "http://dummyimage.com/140x210.bmp/dddddd/000000",
+  "rating": 3.9,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 26,
+  "name": "Ailane",
+  "logo": "http://dummyimage.com/136x107.jpg/dddddd/000000",
+  "rating": 3.8,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 27,
+  "name": "Quimba",
+  "logo": "http://dummyimage.com/232x181.png/cc0000/ffffff",
+  "rating": 3.9,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 28,
+  "name": "Edgepulse",
+  "logo": "http://dummyimage.com/221x151.bmp/dddddd/000000",
+  "rating": 2.5,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 29,
+  "name": "Jabbersphere",
+  "logo": "http://dummyimage.com/186x122.png/ff4444/ffffff",
+  "rating": 4.2,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 30,
+  "name": "Fivechat",
+  "logo": "http://dummyimage.com/203x150.bmp/cc0000/ffffff",
+  "rating": 3.4,
+  "categories": "",
+  "isSponsored": false
+}, {
+  "id": 31,
+  "name": "Brainlounge",
+  "logo": "http://dummyimage.com/178x162.bmp/5fa2dd/ffffff",
+  "rating": 4.3,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 32,
+  "name": "Mycat",
+  "logo": "http://dummyimage.com/112x101.png/cc0000/ffffff",
+  "rating": 1.0,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 33,
+  "name": "InnoZ",
+  "logo": "http://dummyimage.com/105x105.bmp/cc0000/ffffff",
+  "rating": 4.2,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 34,
+  "name": "Riffpedia",
+  "logo": "http://dummyimage.com/210x150.bmp/5fa2dd/ffffff",
+  "rating": 2.0,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 35,
+  "name": "Voolia",
+  "logo": "http://dummyimage.com/155x137.jpg/dddddd/000000",
+  "rating": 3.2,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 36,
+  "name": "Zava",
+  "logo": "http://dummyimage.com/232x113.png/ff4444/ffffff",
+  "rating": 1.9,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 37,
+  "name": "Devcast",
+  "logo": "http://dummyimage.com/178x159.jpg/ff4444/ffffff",
+  "rating": 1.1,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 38,
+  "name": "Quamba",
+  "logo": "http://dummyimage.com/153x249.png/cc0000/ffffff",
+  "rating": 1.2,
+  "categories": "massage",
+  "isSponsored": true
+}, {
+  "id": 39,
+  "name": "Tagchat",
+  "logo": "http://dummyimage.com/222x133.png/5fa2dd/ffffff",
+  "rating": 2.6,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 40,
+  "name": "Yata",
+  "logo": "http://dummyimage.com/136x157.bmp/5fa2dd/ffffff",
+  "rating": 2.2,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 41,
+  "name": "Yombu",
+  "logo": "http://dummyimage.com/123x116.png/ff4444/ffffff",
+  "rating": 4.7,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 42,
+  "name": "Plambee",
+  "logo": "http://dummyimage.com/105x209.jpg/dddddd/000000",
+  "rating": 1.9,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 43,
+  "name": "Devpoint",
+  "logo": "http://dummyimage.com/244x248.png/ff4444/ffffff",
+  "rating": 4.1,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 44,
+  "name": "Yabox",
+  "logo": "http://dummyimage.com/129x223.jpg/ff4444/ffffff",
+  "rating": 4.8,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 45,
+  "name": "Shuffletag",
+  "logo": "http://dummyimage.com/126x207.jpg/5fa2dd/ffffff",
+  "rating": 1.3,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 46,
+  "name": "Browsezoom",
+  "logo": "http://dummyimage.com/238x191.jpg/cc0000/ffffff",
+  "rating": 1.4,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 47,
+  "name": "Aivee",
+  "logo": "http://dummyimage.com/160x224.jpg/cc0000/ffffff",
+  "rating": 1.8,
+  "categories": "",
+  "isSponsored": false
+}, {
+  "id": 48,
+  "name": "Photobug",
+  "logo": "http://dummyimage.com/117x176.bmp/cc0000/ffffff",
+  "rating": 4.0,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 49,
+  "name": "Buzzshare",
+  "logo": "http://dummyimage.com/168x113.png/5fa2dd/ffffff",
+  "rating": 2.1,
+  "categories": "massage",
+  "isSponsored": true
+}, {
+  "id": 50,
+  "name": "Flashpoint",
+  "logo": "http://dummyimage.com/124x172.bmp/5fa2dd/ffffff",
+  "rating": 2.5,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 51,
+  "name": "Yotz",
+  "logo": "http://dummyimage.com/183x176.bmp/cc0000/ffffff",
+  "rating": 1.2,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 52,
+  "name": "Riffwire",
+  "logo": "http://dummyimage.com/235x194.bmp/dddddd/000000",
+  "rating": 2.2,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 53,
+  "name": "Shuffledrive",
+  "logo": "http://dummyimage.com/219x212.png/dddddd/000000",
+  "rating": 1.1,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 54,
+  "name": "Skipstorm",
+  "logo": "http://dummyimage.com/216x123.jpg/cc0000/ffffff",
+  "rating": 1.7,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 55,
+  "name": "Dynava",
+  "logo": "http://dummyimage.com/160x109.jpg/5fa2dd/ffffff",
+  "rating": 2.1,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 56,
+  "name": "Rooxo",
+  "logo": "http://dummyimage.com/236x238.png/dddddd/000000",
+  "rating": 1.9,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 57,
+  "name": "Kwideo",
+  "logo": "http://dummyimage.com/171x199.bmp/5fa2dd/ffffff",
+  "rating": 3.4,
+  "categories": "massage",
+  "isSponsored": true
+}, {
+  "id": 58,
+  "name": "Feedfish",
+  "logo": "http://dummyimage.com/238x170.png/dddddd/000000",
+  "rating": 3.2,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 59,
+  "name": "Fivespan",
+  "logo": "http://dummyimage.com/159x157.png/dddddd/000000",
+  "rating": 1.4,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 60,
+  "name": "LiveZ",
+  "logo": "http://dummyimage.com/197x248.jpg/cc0000/ffffff",
+  "rating": 1.7,
+  "categories": "cinema",
+  "isSponsored": true
+}, {
+  "id": 61,
+  "name": "Demizz",
+  "logo": "http://dummyimage.com/239x141.bmp/dddddd/000000",
+  "rating": 4.3,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 62,
+  "name": "Wikizz",
+  "logo": "http://dummyimage.com/211x226.bmp/ff4444/ffffff",
+  "rating": 4.2,
+  "categories": "",
+  "isSponsored": false
+}, {
+  "id": 63,
+  "name": "Realfire",
+  "logo": "http://dummyimage.com/172x203.bmp/dddddd/000000",
+  "rating": 1.1,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 64,
+  "name": "Abatz",
+  "logo": "http://dummyimage.com/121x227.jpg/cc0000/ffffff",
+  "rating": 3.3,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 65,
+  "name": "Thoughtstorm",
+  "logo": "http://dummyimage.com/118x144.bmp/dddddd/000000",
+  "rating": 1.1,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 66,
+  "name": "Livefish",
+  "logo": "http://dummyimage.com/132x178.jpg/cc0000/ffffff",
+  "rating": 3.4,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 67,
+  "name": "Aimbo",
+  "logo": "http://dummyimage.com/152x183.jpg/5fa2dd/ffffff",
+  "rating": 1.0,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 68,
+  "name": "Avamm",
+  "logo": "http://dummyimage.com/208x167.jpg/5fa2dd/ffffff",
+  "rating": 1.8,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 69,
+  "name": "Skippad",
+  "logo": "http://dummyimage.com/242x150.png/ff4444/ffffff",
+  "rating": 3.5,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 70,
+  "name": "Browsebug",
+  "logo": "http://dummyimage.com/111x178.bmp/cc0000/ffffff",
+  "rating": 3.7,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 71,
+  "name": "Skinder",
+  "logo": "http://dummyimage.com/105x230.bmp/ff4444/ffffff",
+  "rating": 4.8,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 72,
+  "name": "Cogibox",
+  "logo": "http://dummyimage.com/148x167.png/5fa2dd/ffffff",
+  "rating": 3.2,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 73,
+  "name": "Skalith",
+  "logo": "http://dummyimage.com/180x118.png/ff4444/ffffff",
+  "rating": 4.9,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 74,
+  "name": "Mynte",
+  "logo": "http://dummyimage.com/187x206.png/cc0000/ffffff",
+  "rating": 3.4,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 75,
+  "name": "Divanoodle",
+  "logo": "http://dummyimage.com/135x164.bmp/5fa2dd/ffffff",
+  "rating": 1.7,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 76,
+  "name": "Tagchat",
+  "logo": "http://dummyimage.com/123x171.bmp/cc0000/ffffff",
+  "rating": 2.8,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 77,
+  "name": "Yoveo",
+  "logo": "http://dummyimage.com/231x201.jpg/cc0000/ffffff",
+  "rating": 2.1,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 78,
+  "name": "Blogpad",
+  "logo": "http://dummyimage.com/244x160.jpg/dddddd/000000",
+  "rating": 1.9,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 79,
+  "name": "Feedmix",
+  "logo": "http://dummyimage.com/204x250.png/5fa2dd/ffffff",
+  "rating": 2.8,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 80,
+  "name": "Avaveo",
+  "logo": "http://dummyimage.com/224x158.jpg/ff4444/ffffff",
+  "rating": 1.7,
+  "categories": "spa",
+  "isSponsored": true
+}, {
+  "id": 81,
+  "name": "Bubblebox",
+  "logo": "http://dummyimage.com/144x235.bmp/ff4444/ffffff",
+  "rating": 3.4,
+  "categories": "massage",
+  "isSponsored": false
+}, {
+  "id": 82,
+  "name": "Kanoodle",
+  "logo": "http://dummyimage.com/178x167.png/cc0000/ffffff",
+  "rating": 3.9,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 83,
+  "name": "Gabtype",
+  "logo": "http://dummyimage.com/197x148.png/ff4444/ffffff",
+  "rating": 4.2,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 84,
+  "name": "Voonyx",
+  "logo": "http://dummyimage.com/144x159.bmp/5fa2dd/ffffff",
+  "rating": 2.7,
+  "categories": "cinema",
+  "isSponsored": false
+}, {
+  "id": 85,
+  "name": "Chatterbridge",
+  "logo": "http://dummyimage.com/197x216.png/ff4444/ffffff",
+  "rating": 2.8,
+  "categories": "food",
+  "isSponsored": false
+}, {
+  "id": 86,
+  "name": "Dynazzy",
+  "logo": "http://dummyimage.com/155x167.png/cc0000/ffffff",
+  "rating": 2.3,
+  "categories": "massage",
+  "isSponsored": false
+}, {
+  "id": 87,
+  "name": "Voomm",
+  "logo": "http://dummyimage.com/206x187.bmp/ff4444/ffffff",
+  "rating": 2.0,
+  "categories": "sport",
+  "isSponsored": false
+}, {
+  "id": 88,
+  "name": "Yambee",
+  "logo": "http://dummyimage.com/184x123.jpg/cc0000/ffffff",
+  "rating": 3.7,
+  "categories": "massage",
+  "isSponsored": true
+}, {
+  "id": 89,
+  "name": "Kayveo",
+  "logo": "http://dummyimage.com/188x114.jpg/5fa2dd/ffffff",
+  "rating": 4.0,
+  "categories": "massage",
+  "isSponsored": true
+}, {
+  "id": 90,
+  "name": "Yotz",
+  "logo": "http://dummyimage.com/228x130.bmp/dddddd/000000",
+  "rating": 4.0,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 91,
+  "name": "Zazio",
+  "logo": "http://dummyimage.com/174x109.bmp/5fa2dd/ffffff",
+  "rating": 1.3,
+  "categories": "cinema",
+  "isSponsored": false
+}, {
+  "id": 92,
+  "name": "Yodoo",
+  "logo": "http://dummyimage.com/201x206.bmp/5fa2dd/ffffff",
+  "rating": 2.4,
+  "categories": "spa",
+  "isSponsored": false
+}, {
+  "id": 93,
+  "name": "Realbuzz",
+  "logo": "http://dummyimage.com/243x208.png/dddddd/000000",
+  "rating": 3.9,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 94,
+  "name": "Katz",
+  "logo": "http://dummyimage.com/238x183.bmp/cc0000/ffffff",
+  "rating": 1.0,
+  "categories": "",
+  "isSponsored": true
+}, {
+  "id": 95,
+  "name": "Cogibox",
+  "logo": "http://dummyimage.com/127x107.jpg/dddddd/000000",
+  "rating": 2.2,
+  "categories": "food",
+  "isSponsored": true
+}, {
+  "id": 96,
+  "name": "Wikibox",
+  "logo": "http://dummyimage.com/204x121.jpg/dddddd/000000",
+  "rating": 3.6,
+  "categories": "cinema",
+  "isSponsored": false
+}, {
+  "id": 97,
+  "name": "Ailane",
+  "logo": "http://dummyimage.com/139x132.jpg/cc0000/ffffff",
+  "rating": 1.2,
+  "categories": "massage",
+  "isSponsored": false
+}, {
+  "id": 98,
+  "name": "Mybuzz",
+  "logo": "http://dummyimage.com/141x177.jpg/5fa2dd/ffffff",
+  "rating": 1.0,
+  "categories": "",
+  "isSponsored": false
+}, {
+  "id": 99,
+  "name": "Oyondu",
+  "logo": "http://dummyimage.com/234x199.jpg/ff4444/ffffff",
+  "rating": 1.4,
+  "categories": "sport",
+  "isSponsored": true
+}, {
+  "id": 100,
+  "name": "Livetube",
+  "logo": "http://dummyimage.com/227x163.jpg/dddddd/000000",
+  "rating": 2.8,
+  "categories": "cinema",
+  "isSponsored": false
+}]

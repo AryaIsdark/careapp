@@ -1,4 +1,5 @@
 import { api } from './client';
+import partners from './partners.json' 
 
 export const getPosts = (params: any = {}) =>
   api.get<any>('/posts', params);
@@ -51,4 +52,14 @@ export const getMe = () =>
       }
       });
     }, Math.random() * 1000);
+  });
+
+
+  export const search = (params: any) =>
+  new Promise((resolve) => {
+    setTimeout(() => {
+      resolve({
+        data: partners
+      });
+    }, Math.random() * 5000);
   });
