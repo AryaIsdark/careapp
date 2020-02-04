@@ -1,5 +1,5 @@
 import { api } from './client';
-import partners from './partners.json' 
+import partners from './partners.json'
 
 export const getPosts = (params: any = {}) =>
   api.get<any>('/posts', params);
@@ -16,50 +16,51 @@ export const getMe = () =>
     setTimeout(() => {
       resolve({
         data: {
-          userInfo : {
-              id: 'test-id',
-              name: 'test-user-name',
-              lastName: 'test-user-last-name',
-              userName : 'testuser',
-              profilePicture: '',
-              initials : 'TU'
+          userInfo: {
+            id: 'test-id',
+            name: 'test-user-name',
+            lastName: 'test-user-last-name',
+            userName: 'testuser',
+            profilePicture: '',
+            initials: 'TU'
           },
           packageInfo: {
-              name: 'GOLD',
+            name: 'GOLD',
           },
           bookingInfo: {
-              canBook: true,
-              remaining: 2,
-              totalBookingsThisMonth: 3,
-              recentBookings:[
-                {
-                  id:'booking-id-1',
-                  title: 'Luxury Massage',
-                  date: '02-01-2020'
-                },
-                {
-                  id:'booking-id-2',
-                  title: 'Cafe Norden',
-                  date: '17-01-2020'
-                },
-                {
-                  id:'booking-id-2',
-                  title: 'Spa for two',
-                  date: '25-01-2020'
-                }
-              ]
+            canBook: true,
+            remaining: 2,
+            totalBookingsThisMonth: 3,
+            recentBookings: [
+              {
+                id: 'booking-id-1',
+                title: 'Luxury Massage',
+                date: '02-01-2020'
+              },
+              {
+                id: 'booking-id-2',
+                title: 'Cafe Norden',
+                date: '17-01-2020'
+              },
+              {
+                id: 'booking-id-2',
+                title: 'Spa for two',
+                date: '25-01-2020'
+              }
+            ]
           }
-      }
+        }
       });
     }, Math.random() * 1000);
   });
 
 
-  export const search = (params: any) =>
-  new Promise((resolve) => {
+export const search = (params: any) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
         data: partners
       });
-    }, Math.random() * 5000);
+    }, Math.random() * 1000);
   });
+}

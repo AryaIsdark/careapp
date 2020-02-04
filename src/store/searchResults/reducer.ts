@@ -3,6 +3,7 @@ import { ActionTypes, Action } from './types';
 const initialState = {
     isLoading: false,
     hasError: false,
+    params: {},
     data: []
 };
 
@@ -26,6 +27,11 @@ export const reducer = (
             return {
                 ...state,
                 hasError: payload.hasError,
+            };
+        case ActionTypes.SET_PARAMS:
+            return {
+                ...state,
+                params: payload.params
             };
 
         default:

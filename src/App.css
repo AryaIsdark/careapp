@@ -46,13 +46,13 @@
   font-size: 1.4em;
 }
 
-.ant-card-body {
+/* .ant-card-body {
   position: absolute;
   bottom: 0;
   width: 100%;
   padding: 22px;
   zoom: 1;
-}
+} */
 
 .ant-card-head {
   padding: 0 24px;
@@ -91,4 +91,13 @@
 .search-box{
   height: 320px;
   width: 800px;
+}
+
+.ant-list-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
