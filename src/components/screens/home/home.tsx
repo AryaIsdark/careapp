@@ -14,8 +14,8 @@ const HomeScreen = () => {
     }
 
     return (
-        <div className={'d-flex'}>
-            <div className={'search-container'}>
+        <div className={'home-page'} >
+            <div className={'item search-container'}>
                 <div className={'search-box'} >
                     <Search
                         placeholder="Type your area code to start..."
@@ -25,30 +25,32 @@ const HomeScreen = () => {
 
                 </div>
             </div>
-            <Card
-                bordered={false}
-                title={'Your bookings this month'}
-                style={{ width: 400 }}
-                cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Galaxy_02.jpg" />}
-                className={'item box-shadow-md'}>
-                <RecentBookings />
-            </Card>
-            <Card
-                bordered={false}
-                title={'Your subscription'}
-                style={{ width: 400 }}
-                cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Gold_02.jpg" />}
-                className={'item box-shadow-md'}>
-                <SubscriptionDetails />
-            </Card>
-            <Card
-                bordered={false}
-                title={'Your wishlist'}
-                style={{ width: 400 }}
-                cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Star_02.png" />}
-                className={'item box-shadow-md'}>
-                <Empty>You don't have any wishes yet</Empty>
-            </Card>
+            <div className={'item subscription-box'}>
+                <Card
+                    bordered={false}
+                    title={'Your bookings this month'}
+                    style={{ width: 400 }}
+                    cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Galaxy_02.jpg" />}
+                    >
+                    <RecentBookings />
+                </Card>
+                <Card
+                    bordered={false}
+                    title={'Your subscription'}
+                    style={{ width: 400 }}
+                    cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Gold_02.jpg" />}
+                   >
+                    <SubscriptionDetails />
+                </Card>
+                <Card
+                    bordered={false}
+                    title={'Your wishlist'}
+                    style={{ width: 400 }}
+                    cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Star_02.png" />}
+                    >
+                    <Empty>You don't have any wishes yet</Empty>
+                </Card>
+            </div>
         </div>)
 }
 

@@ -1,5 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+#root{
+  height:100%
+}
+
+.app-layout-page{
+  height: 100%;
+}
+
 .App {
   background: whitesmoke;
+  height: 100%;
 }
 
 .App-logo {
@@ -16,24 +29,8 @@
   color: #09d3ac;
 }
 
-.d-flex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.d-flex .item {
-  flex-basis: auto;
-  margin: 20px;
-}
-
 .box-shadow-sm {
   box-shadow: 0 0 4px #e2e2e2;
-}
-
-.box-shadow-md {
-  
-  box-shadow: 0 0 14px silver;
 }
 
 .app-layout-page {
@@ -46,13 +43,17 @@
   font-size: 1.4em;
 }
 
-/* .ant-card-body {
+
+.home-page .ant-card {
+  margin: 1.5%;
+}
+
+.home-page .ant-card-body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 22px;
-  zoom: 1;
-} */
+}
+
 
 .ant-card-head {
   padding: 0 24px;
@@ -77,27 +78,81 @@
   color: black;
 }
 
+.home-page{
+  display: flex;
+  flex-flow: column;
+  background:whitesmoke;
+  height: 100%;
+
+}
+
+.home-page .item{
+  height: 70%;
+}
+
+
 .search-container {
-  height: calc(54vh - 64px);
-  width: 100%;
   background-color: whitesmoke;
   background-image: url(https://ayria.club/images/bg/03.png);
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-position: bottom;
+
 }
 
 .search-box{
-  height: 320px;
-  width: 800px;
+  width: 80vh;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
 }
 
-.ant-list-items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.subscription-box { 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.subscription-box .item{
+  margin: 1%;
+}
+
+
+.search-page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-count{
+  padding: 11px;
+  margin-bottom: 7px;
+}
+
+.search-result-toolbar{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.partners{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partners-item{
+  background: white;
+  width: 353px;
+  margin-bottom: 15px;
+}
+
+.partners-item .partner-item-head{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
 }

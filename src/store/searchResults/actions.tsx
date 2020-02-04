@@ -24,7 +24,6 @@ export const loadData = (params: any) => async (dispatch: Dispatch<Action>, getS
     }
 };
 
-
 export const setIsLoading = (isLoading: boolean) => {
     return {
         type: ActionTypes.SET_LOADING,
