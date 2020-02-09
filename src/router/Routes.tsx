@@ -4,6 +4,7 @@ import Posts from 'components/modules/posts/posts'
 import PostDetails from 'components/modules/postDetails/postDetails';
 import HomeScreen from 'components/screens/home/home';
 import SearchResultScreen from 'components/screens/searchResults/searchResults';
+import QRScan from 'components/screens/qrScan/qrScan';
 
 
 const Routes = () => {
@@ -28,6 +29,11 @@ const Routes = () => {
         exact
         path="/home"
         component={HomeScreen}
+      />
+      <Route
+        exact
+        path="/qr"
+        component={QRScan}
       />
     </Switch>
   );

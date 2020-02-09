@@ -4,6 +4,7 @@ import RecentBookings from 'components/modules/recentBookings/recentBookings'
 import SubscriptionDetails from 'components/modules/subscriptionDetails/scubscriptionDetails'
 import { Input, Empty } from 'antd';
 import history from 'router/history'
+import QRScan from '../qrScan/qrScan';
 
 const { Search } = Input;
 
@@ -44,11 +45,11 @@ const HomeScreen = () => {
                 </Card>
                 <Card
                     bordered={false}
-                    title={'Your wishlist'}
+                    title={'Your QR'}
                     style={{ width: 400 }}
                     cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Star_02.png" />}
                     >
-                    <Empty>You don't have any wishes yet</Empty>
+                    <QRScan/>
                 </Card>
             </div>
         </div>)

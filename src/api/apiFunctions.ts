@@ -64,3 +64,33 @@ export const search = (params: any) => {
     }, Math.random() * 1000);
   });
 }
+
+export const canPurchase = (userId : string) => {
+  if(userId === 'UserId'){
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({
+          data: true
+        });
+      }, Math.random() * 1000);
+    });
+  }
+  if(userId === 'userIdWithExpiredTickets'){
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({
+          data: false
+        });
+      }, Math.random() * 1000);
+    });
+  }
+  else{
+    return new Promise((reject) => {
+      setTimeout(() => {
+        reject({
+          data: partners
+        });
+      }, Math.random() * 1000);
+    });
+  }
+}
