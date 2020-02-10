@@ -25,7 +25,10 @@ input, select { font-size: 100%; }
 .ant-layout-header {
   background: white;
   color: #006cab;
-  padding: 0 20px
+  padding: 0 20px;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
 }
 
 .App-link {
@@ -37,8 +40,7 @@ input, select { font-size: 100%; }
 }
 
 .app-layout-page {
-  max-height: calc(100vh - 64px); 
-  overflow: auto;
+    height: 100%;
 }
 
 .ant-progress-text {

@@ -5,7 +5,7 @@ import * as meActions from 'store/me/actions'
 
 const LoginScreen = () => {
     const [isLoading, seIsLoading] = useState(false)
-    const [userName, setUserName] = useState('')
+    const [userName, setUserName] = useState('User1')
     const dispatch = useDispatch()
     const handleOnBlur = (event: any) => setUserName(event.target.value)
 
@@ -20,6 +20,7 @@ const LoginScreen = () => {
                 <Form onSubmit={handleSubmit} className="login-form">
                     <Form.Item>
                         <Input
+                        value={userName}
                             onBlur={handleOnBlur}
                             prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
                             placeholder="Username"

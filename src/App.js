@@ -18,7 +18,7 @@ const App = () => {
 
   useEffect(() => {
     if(isLoggedIn) {
-      history.replace('/home')
+      history.replace('/area/2830')
     }
     else{
       history.replace('/')
