@@ -3,7 +3,9 @@ import { useTranslation } from 'react-i18next'
 import QrReader from 'react-qr-reader'
 import * as api from 'api/apiFunctions'
 import { Alert } from 'antd';
-import { Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import ConfirmPurchase from '../QRScreen/confirmPurchase';
+import history from 'router/history'
 
 const QRScan = () => {
     const { t } = useTranslation();
@@ -24,6 +26,7 @@ const QRScan = () => {
                 const response: any = await api.canPurchase(data)
                 if (response && response.data === true) {
                     setIsValid(true)
+                    history.push(`/qr/confirmPurchase/${data}`)
                 }
                 else {
                     setShowValidationError(true)
@@ -46,7 +49,12 @@ const QRScan = () => {
             />
             {isValid && <Alert type={'success'} message={'Proccess was succesful'}></Alert>}
             {showValidationError && <Alert type={'error'} message={'User has no valid ticket'}></Alert>}
-
+            <Route
+                path={`/qr/confirmPurchase/:userId`}
+                render={(props) => (
+                    <ConfirmPurchase {...props}/>
+                )}
+            />
         </>
     )
 }
