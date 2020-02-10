@@ -1,5 +1,6 @@
 import { api } from './client';
 import partners from './partners.json'
+import users from './users.json'
 
 export const getPosts = (params: any = {}) =>
   api.get<any>('/posts', params);
@@ -11,46 +12,11 @@ export const getPost = (id: string) =>
 export const getComments = (entityType: string, entityId: string) =>
   api.get<any>(`/${entityType}/${entityId}/comments`);
 
-export const getMe = () =>
+export const getMe = (userName: string) =>
   new Promise((resolve) => {
     setTimeout(() => {
       resolve({
-        data: {
-          userInfo: {
-            id: 'test-id',
-            name: 'test-user-name',
-            lastName: 'test-user-last-name',
-            userName: 'User',
-            profilePicture: '',
-            initials: 'TU',
-            userType: 'merchant'
-          },
-          packageInfo: {
-            name: 'GOLD',
-          },
-          bookingInfo: {
-            canBook: true,
-            remaining: 2,
-            totalBookingsThisMonth: 3,
-            recentBookings: [
-              {
-                id: 'booking-id-1',
-                title: 'Luxury Massage',
-                date: '02-01-2020'
-              },
-              {
-                id: 'booking-id-2',
-                title: 'Cafe Norden',
-                date: '17-01-2020'
-              },
-              {
-                id: 'booking-id-2',
-                title: 'Spa for two',
-                date: '25-01-2020'
-              }
-            ]
-          }
-        }
+        data: users.find((user: any) => user.userInfo.userName === userName)
       });
     }, Math.random() * 1000);
   });

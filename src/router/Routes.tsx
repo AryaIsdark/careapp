@@ -6,6 +6,7 @@ import HomeScreen from 'components/screens/home/home';
 import SearchResultScreen from 'components/screens/searchResults/searchResults';
 import PartnerProfileScreen from 'components/screens/partnerScreen/partnerScreen';
 import QRScreen from 'components/screens/QRScreen/QRScreen';
+import LoginScreen from 'components/screens/loginScreen/loginScreen';
 
 const Routes = () => {
   return (
@@ -13,7 +14,7 @@ const Routes = () => {
       <Route
         exact
         path="/"
-        component={SearchResultScreen}
+        component={LoginScreen}
       />
       <Route
         exact

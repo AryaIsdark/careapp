@@ -1,0 +1,110 @@
+[
+    {
+        "userInfo": {
+          "id": "test-id",
+          "name": "test-user-name",
+          "lastName": "test-user-last-name",
+          "userName": "user1",
+          "profilePicture": "",
+          "initials": "TU",
+          "userType": "user"
+        },
+        "packageInfo": {
+          "name": "SILVER"
+        },
+        "bookingInfo": {
+          "canBook": true,
+          "remaining": 2,
+          "totalBookingsThisMonth": 3,
+          "recentBookings": [
+            {
+              "id": "booking-id-1",
+              "title": "Luxury Massage",
+              "date": "02-01-2020"
+            },
+            {
+              "id": "booking-id-2",
+              "title": "Cafe Norden",
+              "date": "17-01-2020"
+            },
+            {
+              "id": "booking-id-2",
+              "title": "Spa for two",
+              "date": "25-01-2020"
+            }
+          ]
+        }
+      },
+      {
+        "userInfo": {
+          "id": "test-id-2",
+          "name": "test-user-name",
+          "lastName": "test-user-last-name",
+          "userName": "user2",
+          "profilePicture": "",
+          "initials": "TU",
+          "userType": "user"
+        },
+        "packageInfo": {
+          "name": "BRONZE"
+        },
+        "bookingInfo": {
+          "canBook": true,
+          "remaining": 0,
+          "totalBookingsThisMonth": 3,
+          "recentBookings": [
+            {
+              "id": "booking-id-1",
+              "title": "Luxury Massage",
+              "date": "02-01-2020"
+            },
+            {
+              "id": "booking-id-2",
+              "title": "Cafe Norden",
+              "date": "17-01-2020"
+            },
+            {
+              "id": "booking-id-2",
+              "title": "Spa for two",
+              "date": "25-01-2020"
+            }
+          ]
+        }
+      },
+      {
+        "userInfo": {
+          "id": "test-id-2",
+          "name": "test-user-name",
+          "lastName": "test-user-last-name",
+          "userName": "partner",
+          "profilePicture": "",
+          "initials": "TU",
+          "userType": "merchant"
+        },
+        "packageInfo": {
+          "name": "GOLD"
+        },
+        "bookingInfo": {
+          "canBook": true,
+          "remaining": 2,
+          "totalBookingsThisMonth": 3,
+          "recentBookings": [
+            {
+              "id": "booking-id-1",
+              "title": "Luxury Massage",
+              "date": "02-01-2020"
+            },
+            {
+              "id": "booking-id-2",
+              "title": "Cafe Norden",
+              "date": "17-01-2020"
+            },
+            {
+              "id": "booking-id-2",
+              "title": "Spa for two",
+              "date": "25-01-2020"
+            }
+          ]
+        }
+      }   
+]

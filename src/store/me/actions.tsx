@@ -2,11 +2,11 @@ import { ActionTypes, Action } from './types'
 import * as api from 'api/apiFunctions'
 import { Dispatch } from 'react';
 
-export const loadData = () => async (dispatch: Dispatch<Action>) => {
+export const loadData = (userName : string) => async (dispatch: Dispatch<Action>) => {
     dispatch(setHasError(false))
     dispatch(setIsLoading(true))
     try {
-        const response : any = await api.getMe();
+        const response : any = await api.getMe(userName);
         dispatch({
             type: ActionTypes.SET_DATA,
             payload: { data: response.data },

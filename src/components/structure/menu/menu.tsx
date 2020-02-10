@@ -10,7 +10,7 @@ const AppMenu = ({ userInfo }: Props) => {
     return (
         <div className={'menu'}>
             <div className={'menu-item'}>
-                <Link to={'/'}>
+                <Link to={'/home'}>
                     <Icon type="home" />
                 </Link>
             </div>
