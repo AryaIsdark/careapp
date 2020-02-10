@@ -20,6 +20,9 @@ const App = () => {
     if(isLoggedIn) {
       history.replace('/home')
     }
+    else{
+      history.replace('/')
+    }
   }, [isLoggedIn])
 
   return (

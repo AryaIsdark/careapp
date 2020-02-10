@@ -36,10 +36,10 @@ const QRScan = () => {
     }
 
     return (
-       <>
-       {/* <a href={'https://www.thomasbilliet.com/react-qr-reader/'}>test</a> */}
+       <div className={'qr-content'}>
        {isValid && <Alert type={'success'} message={'Proccess was succesful'}></Alert>}
        {showValidationError && <Alert type={'error'} message={'User has no valid ticket'}></Alert>}
+       <br></br>
         <QrReader
           delay={300}
           onError={handleError}
@@ -47,7 +47,7 @@ const QRScan = () => {
           onScan={handleScan}
           style={{ width: '100%' }}
         />
-       </>
+       </div>
     )
 }
 

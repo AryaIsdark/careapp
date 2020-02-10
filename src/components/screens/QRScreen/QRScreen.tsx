@@ -13,11 +13,11 @@ const QRScreen = () => {
     const isPartnerUser = useSelector(selectors.isMerchant)
 
     return (
-        <Spin spinning={isLoading} >
-            <div className={'qr-content'}>
-                {isPartnerUser ? <QRScan /> : <QRCode fgColor={'#006cab'} size={300} value={userInfo.userName} />}
-            </div>
-        </Spin>
+
+        <div className={'qr-content'}>
+            {isPartnerUser ? <QRScan /> : <QRCode fgColor={'#006cab'} size={300} value={userInfo.userName} />}
+        </div>
+
     )
 }
 
