@@ -16,7 +16,7 @@ const HomeScreen = () => {
 
     return (
         <div className={'home-page'} >
-            <div className={'item search-container'}>
+            {/* <div className={'item search-container'}>
                 <div className={'search-box'} >
                     <Search
                         placeholder="Type your area code to start..."
@@ -24,7 +24,7 @@ const HomeScreen = () => {
                         onSearch={handleSearch}
                         enterButton />
                 </div>
-            </div>
+            </div> */}
             <div className={'item subscription-box'}>
                 <Card
                     bordered={false}
