@@ -7,6 +7,7 @@ import SearchResultScreen from 'components/screens/searchResults/searchResults';
 import PartnerProfileScreen from 'components/screens/partnerScreen/partnerScreen';
 import QRScreen from 'components/screens/QRScreen/QRScreen';
 import LoginScreen from 'components/screens/loginScreen/loginScreen';
+import QRScan from 'components/screens/qrScan/qrScan';
 
 const Routes = () => {
   return (
@@ -41,9 +42,8 @@ const Routes = () => {
         component={HomeScreen}
       />
       <Route
-        exact
         path="/qr"
-        component={QRScreen}
+        render={(props) => (<QRScan/>)}
       />
 
     </Switch>
