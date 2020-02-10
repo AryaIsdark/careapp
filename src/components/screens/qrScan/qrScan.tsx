@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import QrReader from 'react-qr-reader'
 import * as api from 'api/apiFunctions'
-import { Alert } from 'antd';
+import { Alert, Divider } from 'antd';
 import { Link } from 'react-router-dom';
 
 const QRScan = () => {
@@ -37,9 +37,9 @@ const QRScan = () => {
 
     return (
        <div className={'qr-content'}>
-       {isValid && <Alert type={'success'} message={'Proccess was succesful'}></Alert>}
-       {showValidationError && <Alert type={'error'} message={'User has no valid ticket'}></Alert>}
-       <br></br>
+       {isValid && <><Alert type={'success'} message={'Proccess was succesful'}></Alert><Divider/></>}
+       {showValidationError && <><Alert type={'error'} message={'User has no valid ticket'}></Alert><Divider/></>}
+        
         <QrReader
           delay={300}
           onError={handleError}
