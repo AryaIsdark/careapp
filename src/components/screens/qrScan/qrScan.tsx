@@ -36,7 +36,6 @@ const QRScan = () => {
 
     return (
        <>
-       
        {isValid && <Alert type={'success'} message={'Proccess was succesful'}></Alert>}
        {showValidationError && <Alert type={'error'} message={'User has no valid ticket'}></Alert>}
        {!isValid && <QrReader

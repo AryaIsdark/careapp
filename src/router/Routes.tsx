@@ -6,7 +6,6 @@ import HomeScreen from 'components/screens/home/home';
 import SearchResultScreen from 'components/screens/searchResults/searchResults';
 import QRScan from 'components/screens/qrScan/qrScan';
 import PartnerProfileScreen from 'components/screens/partnerScreen/partnerScreen';
-import Booking from 'components/booking/booking';
 
 const Routes = () => {
   return (

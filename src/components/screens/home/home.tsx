@@ -23,7 +23,6 @@ const HomeScreen = () => {
                         size={'large'}
                         onSearch={handleSearch}
                         enterButton />
-
                 </div>
             </div>
             <div className={'item subscription-box'}>
@@ -49,7 +48,7 @@ const HomeScreen = () => {
                     style={{ width: 400 }}
                     cover={<img alt="example" width={'200'} src="https://ayria.club/images/bg/Star_02.png" />}
                     >
-                    <QRScan/>
+                    
                 </Card>
             </div>
         </div>)
