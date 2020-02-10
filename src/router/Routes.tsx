@@ -12,6 +12,11 @@ const Routes = () => {
     <Switch>
       <Route
         exact
+        path="/"
+        component={SearchResultScreen}
+      />
+      <Route
+        exact
         path="/posts"
         component={Posts}
       />

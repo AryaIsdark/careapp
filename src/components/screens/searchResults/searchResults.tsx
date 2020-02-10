@@ -18,8 +18,8 @@ const SearchResultScreen = ({ match }: any) => {
     }, [dispatch, areaCode])
 
     return (
-        <div className={'search-page'}>
-            <div className={'search-sidebar'} style={{ width: '20%', padding: '20px' }}>
+        <div>
+            <div className={'search-sidebar'} style={{padding: '20px' }}>
             <div className={'search-count'}>
                 Now showing {data.length} partners
             </div>
@@ -27,7 +27,7 @@ const SearchResultScreen = ({ match }: any) => {
                     <CategoriesFilter />
                 </Card>
             </div>
-            <div className={'search-result-content'} style={{ width: '60%', padding: '20px' }}>
+            <div className={'search-result-content'} style={{ padding: '20px' }}>
                 <Toolbar/>
                 <Partners data={data} match={match}></Partners>
             </div>
