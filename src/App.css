@@ -11,6 +11,7 @@ input, select { font-size: 100%; }
 
 .app-layout-page{
   height: 100%;
+  padding-top: 100px;
 }
 
 .App {
@@ -195,10 +196,9 @@ input, select { font-size: 100%; }
 .qr-content{
   height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  position: absolute;
+  text-align: center;
+  top: 20%;
 }
 
 .login-content {
