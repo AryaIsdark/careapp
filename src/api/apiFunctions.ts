@@ -20,9 +20,10 @@ export const getMe = () =>
             id: 'test-id',
             name: 'test-user-name',
             lastName: 'test-user-last-name',
-            userName: 'testuser',
+            userName: 'User',
             profilePicture: '',
-            initials: 'TU'
+            initials: 'TU',
+            userType: 'user'
           },
           packageInfo: {
             name: 'GOLD',

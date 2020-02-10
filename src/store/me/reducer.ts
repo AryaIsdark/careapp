@@ -9,7 +9,8 @@ const initialState = {
             lastName: '',
             userName : '',
             profilePicture: '',
-            initials : ''
+            initials : '',
+            userType: ''
         },
         packageInfo: {
             name: '',

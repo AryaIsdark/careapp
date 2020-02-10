@@ -10,22 +10,22 @@ const AppMenu = ({ userInfo }: Props) => {
     return (
         <div className={'menu'}>
             <div className={'menu-item'}>
-                <Link to={'home'}>
+                <Link to={'/home'}>
                     <Icon type="home" />
                 </Link>
             </div>
             <div className={'menu-item'}>
-                <Link to={'profile'}>
+                <Link to={'/profile'}>
                     <Icon type="user" />
                 </Link>
             </div>
             <div className={'menu-item'}>
-                <Link to={'qr'}>
+                <Link to={'/qr'}>
                     <Icon type="qrcode" />
                 </Link>
             </div>
             <div className={'menu-item'}>
-                <Link to={'settings'}>
+                <Link to={'/settings'}>
                     <Icon type="setting" />
                 </Link>
             </div>

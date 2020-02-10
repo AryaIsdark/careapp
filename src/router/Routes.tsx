@@ -4,8 +4,8 @@ import Posts from 'components/modules/posts/posts'
 import PostDetails from 'components/modules/postDetails/postDetails';
 import HomeScreen from 'components/screens/home/home';
 import SearchResultScreen from 'components/screens/searchResults/searchResults';
-import QRScan from 'components/screens/qrScan/qrScan';
 import PartnerProfileScreen from 'components/screens/partnerScreen/partnerScreen';
+import QRScreen from 'components/screens/QRScreen/QRScreen';
 
 const Routes = () => {
   return (
@@ -37,7 +37,7 @@ const Routes = () => {
       <Route
         exact
         path="/qr"
-        component={QRScan}
+        component={QRScreen}
       />
 
     </Switch>

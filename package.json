@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/qrcode.react": "^1.0.0",
     "@types/react-qr-reader": "^2.1.2",
     "@types/react-star-rating-component": "^1.4.0",
     "antd": "^3.26.7",
@@ -15,6 +16,7 @@
     "jest": "^24.9.0",
     "moment": "^2.24.0",
     "prettier": "^1.18.2",
+    "qrcode.react": "^1.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-i18next": "^10.13.1",

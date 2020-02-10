@@ -19,15 +19,17 @@ const App = () => {
   }, [dispatch])
 
   return (
-    <div className="App">
-      <AppHeader userInfo={userInfo} bookingInfo={bookingInfo}  />
-      <Suspense fallback={t('loading...')}>
-        <div className={'app-layout-page'}>
-          <Routes />
-        </div>
-      </Suspense>
-      <AppMenu userInfo={userInfo} ></AppMenu>
-    </div>
+    <webview>
+      <div className="App">
+        <AppHeader userInfo={userInfo} bookingInfo={bookingInfo} />
+        <Suspense fallback={t('loading...')}>
+          <div className={'app-layout-page'}>
+            <Routes />
+          </div>
+        </Suspense>
+        <AppMenu userInfo={userInfo} ></AppMenu>
+      </div>
+    </webview>
   );
 }
 
