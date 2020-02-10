@@ -15,15 +15,20 @@ const App = () => {
   // const dispatch = useDispatch()
   const { userInfo, bookingInfo } = useSelector(meSelectors.data)
   const isLoggedIn = useSelector(meSelectors.isLoggedIn)
+  const isPartnerUser = useSelector(meSelectors.isMerchant)
 
   useEffect(() => {
     if(isLoggedIn) {
       history.replace('/area/2830')
+      if(isPartnerUser){
+        history.replace('/qr')
+      } 
     }
+ 
     else{
       history.replace('/')
     }
-  }, [isLoggedIn])
+  }, [isLoggedIn, isPartnerUser])
 
   return (
       <div className="App">

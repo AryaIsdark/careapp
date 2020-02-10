@@ -21,7 +21,7 @@ const LoginScreen = () => {
                     <Form.Item>
                         <Input
                         value={userName}
-                            onBlur={handleOnBlur}
+                            onChange={handleOnBlur}
                             prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
                             placeholder="Username"
                         />
