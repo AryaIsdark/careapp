@@ -1,19 +1,28 @@
-import React from 'react'
-import { Modal, Drawer } from 'antd'
+import React, { useState } from 'react'
+import { Modal } from 'antd'
 
 interface Props {
-    match: any
+    match: {
+        params: any
+    }
 }
 
-const Booking = ({match}: Props) => {
+const Booking = ({ match }: Props) => {
 
+    const { productId, partnerId } = match.params
+    const [visible, setVisible] = useState(true)
+
+    const handleOnClose = () => setVisible(false)
+    const handleOnOkClick = () => console.log('ok was click')        
+    
     return (
-        <Drawer visible={true} >
+        <Modal closable onCancel={handleOnClose} onOk={handleOnOkClick} visible={visible} >
+            partner : {partnerId} product : {productId}
             <div>
                 Booking
             </div>
-        </Drawer>
-        )
+        </Modal>
+    )
 }
 
 export default Booking

@@ -27,7 +27,6 @@ const Routes = () => {
         render={(props) => (<SearchResultScreen {...props} />)}
       />
       <Route
-        exact
         path="/partners/:partnerId"
         render={(props) => (<PartnerProfileScreen {...props} />)}
       />
@@ -42,12 +41,7 @@ const Routes = () => {
         path="/qr"
         component={QRScan}
       />
-      <Route
-        path={`/book/:partnerId`}
-        render={(props) => (
-          <Booking {...props} />
-        )}
-      />
+
     </Switch>
   );
 };
