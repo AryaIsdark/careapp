@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next'
 import AppHeader from 'components/structure/header/header'
 import * as meActions from 'store/me/actions'
 import * as meSelectors from 'store/me/selectors'
+import AppMenu from 'components/structure/menu/menu'
 
 const App = () => {
   const { t } = useTranslation('preload', { useSuspense: false })
@@ -25,6 +26,7 @@ const App = () => {
           <Routes />
         </div>
       </Suspense>
+      <AppMenu userInfo={userInfo} ></AppMenu>
     </div>
   );
 }

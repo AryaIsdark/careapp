@@ -35,7 +35,6 @@ const Routes = () => {
         path="/home"
         component={HomeScreen}
       />
-      <Route />
       <Route
         exact
         path="/qr"
