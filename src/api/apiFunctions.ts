@@ -23,7 +23,7 @@ export const getMe = () =>
             userName: 'User',
             profilePicture: '',
             initials: 'TU',
-            userType: 'user'
+            userType: 'merchant'
           },
           packageInfo: {
             name: 'GOLD',

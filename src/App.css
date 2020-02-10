@@ -22,7 +22,7 @@
 .ant-layout-header {
   background: white;
   color: #006cab;
-
+  padding: 0 20px
 }
 
 .App-link {
@@ -161,7 +161,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 70px;
   background:#006cab;
   display: flex;
   justify-content: space-between;

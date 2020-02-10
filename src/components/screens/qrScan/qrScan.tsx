@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import QrReader from 'react-qr-reader'
 import * as api from 'api/apiFunctions'
 import { Alert } from 'antd';
+import { Link } from 'react-router-dom';
 
 const QRScan = () => {
     const { t } = useTranslation();
@@ -36,14 +37,16 @@ const QRScan = () => {
 
     return (
        <>
+       {/* <a href={'https://www.thomasbilliet.com/react-qr-reader/'}>test</a> */}
        {isValid && <Alert type={'success'} message={'Proccess was succesful'}></Alert>}
        {showValidationError && <Alert type={'error'} message={'User has no valid ticket'}></Alert>}
-       {!isValid && <QrReader
+        <QrReader
           delay={300}
           onError={handleError}
+          facingMode={'environment'}
           onScan={handleScan}
           style={{ width: '100%' }}
-        />}
+        />
        </>
     )
 }
