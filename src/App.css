@@ -179,9 +179,15 @@
   font-size: 26px;
 }
 
-.qr-content{
+/* .qr-content{
   height: calc(100vh - 80px);
   display: flex;
   justify-content: space-around;
   align-items: center;
+} */
+
+
+.qr-content{
+  height: 100%;
+  width: 100%;
 }
