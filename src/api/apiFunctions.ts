@@ -33,7 +33,7 @@ export const search = (params: any) => {
 }
 
 export const canPurchase = (userId : string) => {
-  if(userId === 'user1'){
+  if(userId === 'User1'){
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve({
@@ -42,7 +42,7 @@ export const canPurchase = (userId : string) => {
       }, Math.random() * 1000);
     });
   }
-  if(userId === 'user2'){
+  if(userId === 'User2'){
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve({
