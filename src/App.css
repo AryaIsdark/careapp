@@ -198,6 +198,7 @@ input, select { font-size: 100%; }
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .login-content {
