@@ -49,12 +49,6 @@ const QRScan = () => {
             />
             {isValid && <Alert type={'success'} message={'Proccess was succesful'}></Alert>}
             {showValidationError && <Alert type={'error'} message={'User has no valid ticket'}></Alert>}
-            <Route
-                path={`/qr/confirmPurchase/:userId`}
-                render={(props) => (
-                    <ConfirmPurchase {...props}/>
-                )}
-            />
         </>
     )
 }
