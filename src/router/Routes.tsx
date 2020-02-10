@@ -36,15 +36,13 @@ const Routes = () => {
         path="/home"
         component={HomeScreen}
       />
+      <Route />
       <Route
- <Route
         exact
         path="/qr"
         component={QRScan}
       />
-        )}
-      />
-       <Route
+      <Route
         path={`/book/:partnerId`}
         render={(props) => (
           <Booking {...props} />
