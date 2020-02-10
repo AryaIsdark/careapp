@@ -4,7 +4,7 @@
           "id": "test-id",
           "name": "test-user-name",
           "lastName": "test-user-last-name",
-          "userName": "user1",
+          "userName": "User1",
           "profilePicture": "",
           "initials": "TU",
           "userType": "user"
@@ -40,7 +40,7 @@
           "id": "test-id-2",
           "name": "test-user-name",
           "lastName": "test-user-last-name",
-          "userName": "user2",
+          "userName": "User2",
           "profilePicture": "",
           "initials": "TU",
           "userType": "user"
@@ -76,7 +76,7 @@
           "id": "test-id-2",
           "name": "test-user-name",
           "lastName": "test-user-last-name",
-          "userName": "partner",
+          "userName": "Partner",
           "profilePicture": "",
           "initials": "TU",
           "userType": "merchant"
