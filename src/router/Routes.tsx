@@ -5,7 +5,8 @@ import PostDetails from 'components/modules/postDetails/postDetails';
 import HomeScreen from 'components/screens/home/home';
 import SearchResultScreen from 'components/screens/searchResults/searchResults';
 import QRScan from 'components/screens/qrScan/qrScan';
-
+import PartnerProfileScreen from 'components/screens/partnerScreen/partnerScreen';
+import Booking from 'components/booking/booking';
 
 const Routes = () => {
   return (
@@ -27,13 +28,27 @@ const Routes = () => {
       />
       <Route
         exact
+        path="/partners/:partnerId"
+        render={(props) => (<PartnerProfileScreen {...props} />)}
+      />
+      <Route
+        exact
         path="/home"
         component={HomeScreen}
       />
       <Route
+ <Route
         exact
         path="/qr"
         component={QRScan}
+      />
+        )}
+      />
+       <Route
+        path={`/book/:partnerId`}
+        render={(props) => (
+          <Booking {...props} />
+        )}
       />
     </Switch>
   );

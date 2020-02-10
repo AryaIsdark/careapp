@@ -29,7 +29,7 @@ const SearchResultScreen = ({ match }: any) => {
             </div>
             <div className={'search-result-content'} style={{ width: '60%', padding: '20px' }}>
                 <Toolbar/>
-                <Partners data={data}></Partners>
+                <Partners data={data} match={match}></Partners>
             </div>
         </div>
     )
