@@ -175,5 +175,6 @@
 }
 
 .menu .menu-item a {
-  color: white
+  color: white;
+  font-size: 26px;
 }

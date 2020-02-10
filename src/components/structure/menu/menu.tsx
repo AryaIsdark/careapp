@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Icon } from 'antd'
 
 interface Props {
     userInfo: any,
@@ -9,16 +10,24 @@ const AppMenu = ({ userInfo }: Props) => {
     return (
         <div className={'menu'}>
             <div className={'menu-item'}>
-                <Link to={'home'}>Home</Link>
+                <Link to={'home'}>
+                    <Icon type="home" />
+                </Link>
             </div>
             <div className={'menu-item'}>
-                <Link to={'profile'}>Profile</Link>
+                <Link to={'profile'}>
+                    <Icon type="user" />
+                </Link>
             </div>
             <div className={'menu-item'}>
-                <Link to={'qr'}>Scan</Link>
+                <Link to={'qr'}>
+                    <Icon type="qrcode" />
+                </Link>
             </div>
             <div className={'menu-item'}>
-                <Link to={'settings'}>Settings</Link>
+                <Link to={'settings'}>
+                    <Icon type="setting" />
+                </Link>
             </div>
         </div>
     )
