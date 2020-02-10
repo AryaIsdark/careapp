@@ -14,6 +14,7 @@ ReactDOM.render(
     
     <Router history={history}>
         < meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
         <I18nextProvider i18n={i18n}>
             <Provider store={store}>
                 <App />
