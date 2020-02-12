@@ -6,7 +6,7 @@
           "lastName": "Shahali",
           "userName": "User1",
           "profilePicture": "",
-          "initials": "TU",
+          "initials": "AS",
           "userType": "user"
         },
         "packageInfo": {
@@ -37,12 +37,12 @@
       },
       {
         "userInfo": {
-          "id": "test-id-2",
-          "name": "test-user-name",
+          "id": "Mehdi",
+          "name": "Goozoo",
           "lastName": "test-user-last-name",
           "userName": "User2",
           "profilePicture": "",
-          "initials": "TU",
+          "initials": "MG",
           "userType": "user"
         },
         "packageInfo": {
@@ -74,11 +74,11 @@
       {
         "userInfo": {
           "id": "test-id-2",
-          "name": "Mehdi",
-          "lastName": "Goozoo",
+          "name": "Merchant",
+          "lastName": "Merchantsen",
           "userName": "Partner",
           "profilePicture": "",
-          "initials": "TU",
+          "initials": "MM",
           "userType": "merchant"
         },
         "packageInfo": {
@@ -86,8 +86,8 @@
         },
         "bookingInfo": {
           "canBook": true,
-          "remaining": 2,
-          "totalBookingsThisMonth": 3,
+          "remaining": 0,
+          "totalBookingsThisMonth": 0,
           "recentBookings": [
             {
               "id": "booking-id-1",

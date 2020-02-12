@@ -8,4 +8,6 @@ export const isMerchant = (state: AppState) => state.me && state.me.data.userInf
 
 export const isLoggedIn = (state: AppState) => state.me && state.me.data.userInfo.userName.length > 0;
 
+export const percentage = (state: AppState) => state.me && ( state.me.data.bookingInfo.totalBookingsThisMonth * 100 ) /  ( state.me.data.bookingInfo.remaining + state.me.data.bookingInfo.totalBookingsThisMonth) ;
+
 export const data = (state: AppState) => state.me && state.me.data;

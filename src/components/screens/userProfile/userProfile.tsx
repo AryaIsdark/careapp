@@ -1,11 +1,13 @@
 import React from 'react'
-import { Avatar, Progress, Divider, Descriptions, Card, Button } from 'antd'
+import { Progress, Divider, Descriptions, Card, Button } from 'antd'
 import { useSelector } from 'react-redux'
 import * as meSelectors from 'store/me/selectors'
 
 
 const UserProfile = () => {
     const { userInfo, bookingInfo, packageInfo } = useSelector(meSelectors.data)
+    const percentage = useSelector(meSelectors.percentage)
+
     return (
         <>
             <Card >
@@ -21,13 +23,13 @@ const UserProfile = () => {
                 <Progress
                     width={300}
                     type={'circle'}
-                    percent={25}
+                    percent={percentage}
                     format={() => `${bookingInfo.totalBookingsThisMonth}/${bookingInfo.totalBookingsThisMonth + bookingInfo.remaining}`} />
 
                 <Divider type={'vertical'} />
                 <Descriptions>
-                    <Descriptions.Item label="Total bookings this month">{bookingInfo.totalBookingsThisMonth} {userInfo.lastName}</Descriptions.Item>
-                    <Descriptions.Item label="Remaining tickets for this month">{packageInfo.name}</Descriptions.Item>
+                    <Descriptions.Item label="Total bookings this month">{bookingInfo.totalBookingsThisMonth} </Descriptions.Item>
+                    <Descriptions.Item label="Remaining tickets for this month">{bookingInfo.remaining}</Descriptions.Item>
                 </Descriptions>
                 <Button size={'large'} type={'ghost'} title={'Buy extra ticket'}>Buy extra ticket</Button>
                 <Divider type={'vertical'}></Divider>
