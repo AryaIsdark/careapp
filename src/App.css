@@ -12,6 +12,7 @@ input, select { font-size: 100%; }
 .app-layout-page{
   height: 100%;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .App {
