@@ -2,8 +2,8 @@
     {
         "userInfo": {
           "id": "test-id",
-          "name": "test-user-name",
-          "lastName": "test-user-last-name",
+          "name": "Arya",
+          "lastName": "Shahali",
           "userName": "User1",
           "profilePicture": "",
           "initials": "TU",
@@ -74,8 +74,8 @@
       {
         "userInfo": {
           "id": "test-id-2",
-          "name": "test-user-name",
-          "lastName": "test-user-last-name",
+          "name": "Mehdi",
+          "lastName": "Goozoo",
           "userName": "Partner",
           "profilePicture": "",
           "initials": "TU",

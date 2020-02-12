@@ -1,5 +1,5 @@
 import React from 'react'
-import { Avatar, Progress, Divider, Descriptions, Card } from 'antd'
+import { Avatar, Progress, Divider, Descriptions, Card, Button } from 'antd'
 import { useSelector } from 'react-redux'
 import * as meSelectors from 'store/me/selectors'
 
@@ -25,13 +25,13 @@ const UserProfile = () => {
                     format={() => `${bookingInfo.totalBookingsThisMonth}/${bookingInfo.totalBookingsThisMonth + bookingInfo.remaining}`} />
 
                 <Divider type={'vertical'} />
-                <Avatar style={{ backgroundColor: '#006cab', verticalAlign: 'middle', width: '50px', height: '50px', lineHeight: '3.5' }} size="large">
-                    {userInfo.initials}
-                </Avatar>
                 <Descriptions>
                     <Descriptions.Item label="Total bookings this month">{bookingInfo.totalBookingsThisMonth} {userInfo.lastName}</Descriptions.Item>
                     <Descriptions.Item label="Remaining tickets for this month">{packageInfo.name}</Descriptions.Item>
                 </Descriptions>
+                <Button size={'large'} type={'ghost'} title={'Buy extra ticket'}>Buy extra ticket</Button>
+                <Divider type={'vertical'}></Divider>
+                <Button size={'large'} type={'primary'} title={'Change Plan'}>Change Plan</Button>
             </Card>
         </>
     )
