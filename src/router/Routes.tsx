@@ -7,6 +7,7 @@ import SearchResultScreen from 'components/screens/searchResults/searchResults';
 import PartnerProfileScreen from 'components/screens/partnerScreen/partnerScreen';
 import QRScreen from 'components/screens/QRScreen/QRScreen';
 import LoginScreen from 'components/screens/loginScreen/loginScreen';
+import UserProfile from 'components/screens/userProfile/userProfile';
 
 const Routes = () => {
   return (
@@ -43,6 +44,10 @@ const Routes = () => {
       <Route
         path="/qr"
         component={QRScreen}
+      />
+      <Route
+        path="/profile"
+        component={UserProfile}
       />
 
     </Switch>
