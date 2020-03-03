@@ -2,6 +2,10 @@ import { api } from './client';
 import partners from './partners.json'
 import users from './users.json'
 
+export const getProducts = (params = {}) =>
+  api.get<any>('/api/v1/products', params);
+
+
 export const getPosts = (params: any = {}) =>
   api.get<any>('/posts', params);
 
@@ -32,8 +36,8 @@ export const search = (params: any) => {
   });
 }
 
-export const canPurchase = (userId : string) => {
-  if(userId === 'User1'){
+export const canPurchase = (userId: string) => {
+  if (userId === 'User1') {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve({
@@ -42,7 +46,7 @@ export const canPurchase = (userId : string) => {
       }, Math.random() * 1000);
     });
   }
-  if(userId === 'User2'){
+  if (userId === 'User2') {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve({
@@ -51,7 +55,7 @@ export const canPurchase = (userId : string) => {
       }, Math.random() * 1000);
     });
   }
-  else{
+  else {
     return new Promise((reject) => {
       setTimeout(() => {
         reject({

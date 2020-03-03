@@ -21,7 +21,7 @@ const Partners = ({ data, match }: Props) => {
             <Spin spinning={isLoading}>
                 <div className={'partners'}>
                     {data.map((partner: any) =>
-                        <div className={'partners-item'}>
+                        <div key={partner.id} className={'partners-item'}>
                             <div className={'partner-item-head'}>
                                 <div>{partner.name}</div>
                                 <div><StarRatingComponent name={'name'} value={partner.rating} editing={false} /></div>
@@ -34,7 +34,7 @@ const Partners = ({ data, match }: Props) => {
                     )}
                 </div>
             </Spin>
-            
+
         </>
     )
 }

@@ -32,7 +32,7 @@ export const createResponseTransform = () => (response: ApiResponse<any>) => {
 };
 
 export const api = create({
-  baseURL: 'https://jsonplaceholder.typicode.com',
+  baseURL: 'https://wavesapi.herokuapp.com',
 });
 
 api.addResponseTransform(createResponseTransform());

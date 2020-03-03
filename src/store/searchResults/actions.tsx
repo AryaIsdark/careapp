@@ -12,10 +12,10 @@ export const loadData = (params: any) => async (dispatch: Dispatch<Action>, getS
     dispatch(setIsLoading(true))
     dispatch(setParams({...currentParams, ...params}))
     try {
-        const response: any = await api.search({...currentParams,params});
+        const response: any = await api.getProducts({...currentParams,params});
         dispatch({
             type: ActionTypes.SET_DATA,
-            payload: { data: response.data },
+            payload: { data: response.data.data },
         });
     } catch (err) {
         dispatch(setHasError(true));

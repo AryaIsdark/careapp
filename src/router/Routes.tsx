@@ -15,7 +15,7 @@ const Routes = () => {
       <Route
         exact
         path="/"
-        component={LoginScreen}
+        render={(props) => (<SearchResultScreen {...props} />)}
       />
       <Route
         exact
