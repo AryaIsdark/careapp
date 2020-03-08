@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import * as actions from 'store/searchResults/actions'
-import * as selectors from 'store/searchResults/selectors'
+import * as actions from 'store/partners/actions'
+import * as selectors from 'store/partners/selectors'
 import Partners from 'components/modules/partners/partners'
 import CategoriesFilter from 'components/modules/categoriesFilter/categoriesFilter'
 import { Card } from 'antd'
@@ -29,7 +29,7 @@ const SearchResultScreen = ({ match }: any) => {
             </div>
             <div className={'search-result-content'} style={{ padding: '20px' }}>
                 <Toolbar/>
-                <Partners data={data} match={match}></Partners>
+                <Partners data={data}></Partners>
             </div>
         </div>
     )

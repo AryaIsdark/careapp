@@ -4,7 +4,7 @@ const initialState = {
     isLoading: false,
     hasError: false,
     params: {},
-    data: []
+    data: [],
 };
 
 export const reducer = (

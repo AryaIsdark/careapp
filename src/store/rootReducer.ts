@@ -7,8 +7,8 @@ import comments from './comments/reducer';
 import { CommentsState } from './comments/types';
 import me from './me/reducer';
 import { MeState } from './me/types';
-import searchResults from './searchResults/reducer';
-import { SearchResultsState } from './searchResults/types';
+import partners from './partners/reducer';
+import { PartnersState } from './partners/types';
 
 
 export interface AppState {
@@ -16,7 +16,7 @@ export interface AppState {
   postDetails: PostDetailsState;
   comments: CommentsState;
   me : MeState
-  searchResults: SearchResultsState
+  partners: PartnersState
 }
 
 const rootReducer = combineReducers<any>({
@@ -24,7 +24,7 @@ const rootReducer = combineReducers<any>({
   postDetails,
   comments, 
   me,
-  searchResults
+  partners
 });
 
 export default rootReducer;

@@ -2,15 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Icon } from 'antd'
 
-interface Props {
-    userInfo: any,
-}
-
-const AppMenu = ({ userInfo }: Props) => {
+const AppMenu = () => {
     return (
         <div className={'menu'}>
             <div className={'menu-item'}>
-                <Link to={'/home'}>
+                <Link to={'/admin-panel/partners'}>
                     <Icon type="home" />
                 </Link>
             </div>

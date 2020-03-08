@@ -14,13 +14,13 @@ const App = () => {
 
   return (
     <div className="App">
-      <AppHeader userInfo={userInfo} bookingInfo={bookingInfo} />}
+      <AppHeader userInfo={userInfo} bookingInfo={bookingInfo} />
         <Suspense fallback={t('loading...')}>
         <div className={'app-layout-page'}>
           <Routes />
         </div>
       </Suspense>
-      <AppMenu userInfo={userInfo} ></AppMenu>}
+      <AppMenu userInfo={userInfo} />
       </div>
   );
 }

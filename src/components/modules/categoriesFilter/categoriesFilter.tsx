@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Checkbox, Divider } from 'antd'
 import { useDispatch } from 'react-redux'
-import * as actions from 'store/searchResults/actions'
+import * as actions from 'store/partners/actions'
 
 const CategoriesFilter = () => {
     const dispatch = useDispatch()

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Select } from 'antd'
 
-import * as actions from 'store/searchResults/actions'
+import * as actions from 'store/partners/actions'
 import { useDispatch } from 'react-redux'
 const { Option } = Select;
 

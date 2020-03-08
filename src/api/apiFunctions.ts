@@ -5,6 +5,11 @@ import users from './users.json'
 export const getProducts = (params = {}) =>
   api.get<any>('/api/v1/products', params);
 
+export const getPartners = (params = {}) =>
+  api.get<any>('/api/v1/partners', params);
+
+export const createPartner = (data = {}) =>
+  api.post<any>('/api/v1/partners', data);
 
 export const getPosts = (params: any = {}) =>
   api.get<any>('/posts', params);

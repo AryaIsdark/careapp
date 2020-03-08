@@ -6,8 +6,9 @@ import HomeScreen from 'components/screens/home/home';
 import SearchResultScreen from 'components/screens/searchResults/searchResults';
 import PartnerProfileScreen from 'components/screens/partnerScreen/partnerScreen';
 import QRScreen from 'components/screens/QRScreen/QRScreen';
-import LoginScreen from 'components/screens/loginScreen/loginScreen';
 import UserProfile from 'components/screens/userProfile/userProfile';
+import AdminPanel from 'components/screens/adminPanel/adminPanel';
+import PartnerForm from 'components/modules/partnerForm/partnerForm';
 
 const Routes = () => {
   return (
@@ -15,7 +16,19 @@ const Routes = () => {
       <Route
         exact
         path="/"
-        render={(props) => (<SearchResultScreen {...props} />)}
+        component={AdminPanel}
+      />
+      <Route
+        exact
+        path="/admin-panel/partners"
+        component={AdminPanel}
+      />
+      <Route
+        exact
+        path="/admin-panel/partners/:id"
+        render={
+          (props) => (<PartnerForm backUrl={'/admin-panel/partners'} {...props} />)
+        }
       />
       <Route
         exact
