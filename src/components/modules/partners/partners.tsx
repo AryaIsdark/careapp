@@ -14,7 +14,7 @@ const Partners = ({ data }: Props) => {
 
   return (
     <Spin spinning={isLoading}>
-      {process.env.NODE_ENV}
+      Env: {process.env.NODE_ENV}
       <List
         itemLayout={"horizontal"}
         dataSource={data}
